@@ -7,16 +7,16 @@ public class S_InputManager : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
     //[Header("Input")]
     [Header("Output")]
-    [SerializeField] private RSE_OnPlayerDash rse_OnPlayerDash;
-    [SerializeField] private RSE_OnPlayerJump rse_OnPlayerJump;
-    [SerializeField] private RSE_OnPlayerLook rse_OnPlayerLook;
-    [SerializeField] private RSE_OnPlayerMove rse_OnPlayerMove;
+    //[SerializeField] private RSE_OnPlayerDash rse_OnPlayerDash;
+    //[SerializeField] private RSE_OnPlayerJump rse_OnPlayerJump;
+    //[SerializeField] private RSE_OnPlayerLook rse_OnPlayerLook;
+    //[SerializeField] private RSE_OnPlayerMove rse_OnPlayerMove;
 
     private IA_PlayerInput ia_PlayerInput = null;
 
     private void Awake()
     {
-        ia_PlayerInput = new IA_PlayerInputs();
+        ia_PlayerInput = new IA_PlayerInput();
         playerInput.actions = ia_PlayerInput.asset;
     }
     private void OnEnable()
@@ -45,19 +45,19 @@ public class S_InputManager : MonoBehaviour
     }
     private void OnMoveInput(InputAction.CallbackContext ctx)
     {
-        rse_OnPlayerMove.Call(ctx.ReadValue<Vector2>());
+        //rse_OnPlayerMove.Call(ctx.ReadValue<Vector2>());
     }
     private void OnJumpInput(InputAction.CallbackContext ctx)
     {
-        rse_OnPlayerJump.Call(ctx.ReadValueAsButton());
+        //rse_OnPlayerJump.Call(ctx.ReadValueAsButton());
     }
     private void OnDashInput(InputAction.CallbackContext ctx)
     {
-        rse_OnPlayerDash.Call(ctx.ReadValueAsButton());
+        //rse_OnPlayerDash.Call(ctx.ReadValueAsButton());
     }
     private void OnLookInput(InputAction.CallbackContext ctx)
     {
-        rse_OnPlayerLook.Call(ctx.ReadValue<Vector2>());
+        //rse_OnPlayerLook.Call(ctx.ReadValue<Vector2>());
     }
 
 }
