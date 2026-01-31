@@ -234,6 +234,7 @@ MonoBehaviour:
   finalScoreText: {fileID: 2994792650683653938}
   gameOverText: {fileID: 681598987349163858}
   onShowGameOver: {fileID: 11400000, guid: c41cba075f459344fbf61b6b711bf05e, type: 2}
+  finalScore: {fileID: 11400000, guid: f6a4f78e9d3a64248b589dcf43038170, type: 2}
 --- !u!1 &1883347904092863904
 GameObject:
   m_ObjectHideFlags: 0

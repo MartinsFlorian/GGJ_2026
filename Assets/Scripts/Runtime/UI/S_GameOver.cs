@@ -13,6 +13,7 @@ public class S_GameOver : MonoBehaviour
 
     [Header("Inputs")]
     [SerializeField] private RSE_OnShowPanel onShowGameOver;
+    [SerializeField] private RSO_PlayerScore finalScore;
 
     //[Header("Outputs")]
 
@@ -29,7 +30,7 @@ public class S_GameOver : MonoBehaviour
         gameOverUI.SetActive(show);
         if (show)
         {
-            finalScoreText.text = "Final Score: ";
+            finalScoreText.text = "Final Score: " + finalScore;
             GetRandomText();
         }
     }
