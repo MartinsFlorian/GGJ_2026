@@ -9,12 +9,21 @@ public class S_ScoreManager : MonoBehaviour
     [SerializeField] private float multiplierAmount = 0.5f;
     [SerializeField] private float multiplierIncreaseInterval = 30f;
     [Header("References")]
-    [SerializeField] private RSO_PlayerScore GlobalScore;
+    [SerializeField] private RSO_PlayerScore playerScore;
+    private float score = 0f;
 
     //[Header("Inputs")]
 
     //[Header("Outputs")]
     private Coroutine increaseMultiplierCoroutine;
+    private void OnEnable()
+    {
+        score = playerScore.Value;
+    }
+    private void OnDisable()
+    {
+        playerScore.Value = score;
+    }
     private void Start()
     {
         if(increaseMultiplierCoroutine != null)
@@ -30,7 +39,7 @@ public class S_ScoreManager : MonoBehaviour
     }
     private void IncreaseScore()
     {
-        GlobalScore.Value += (scoreIncreaseRate * scoreMultiplier) * Time.deltaTime;
+        playerScore.Value += (scoreIncreaseRate * scoreMultiplier) * Time.deltaTime;
     }
 
     private IEnumerator IncreaseMultiplier()
