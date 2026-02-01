@@ -10,7 +10,6 @@ public class S_WaveManager : MonoBehaviour
     [SerializeField] private List<S_ClassPattern> listPattern;
 
     [Header("References")]
-    [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private RSO_ProjectileSpeed projectileSpeed;
 
     //[Header("Inputs")]
@@ -35,7 +34,7 @@ public class S_WaveManager : MonoBehaviour
             {
                 for (int i = 0; i < spawner.numProjectiles; i++)
                 {
-                    Instantiate(projectilePrefab, spawner.spawner.transform.position, spawner.spawner.transform.rotation);
+                    Instantiate(spawner.projectilePrefab, spawner.spawner.transform.position, spawner.spawner.transform.rotation);
                     yield return new WaitForSeconds(spawner.spawnInterval * speedMultiplier);
                 }
             }
