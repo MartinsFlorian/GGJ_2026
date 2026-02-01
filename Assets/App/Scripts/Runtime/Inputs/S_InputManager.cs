@@ -11,6 +11,7 @@ public class S_InputManager : MonoBehaviour
     [SerializeField] private RSE_OnPlayerJump rse_OnPlayerJump;
     [SerializeField] private RSE_OnPlayerLook rse_OnPlayerLook;
     [SerializeField] private RSE_OnPlayerMove rse_OnPlayerMove;
+    [SerializeField] private RSE_OnPlayerPause rse_OnPlayerPause;
 
     private IA_PlayerInput ia_PlayerInput = null;
 
@@ -29,7 +30,9 @@ public class S_InputManager : MonoBehaviour
         player.Dash.performed += OnDashInput;
         player.Look.performed += OnLookInput;
         player.Look.canceled += OnLookInput;
+        player.Pause.performed += OnPauseInput;
     }
+
 
     private void OnDisable()
     {
@@ -41,6 +44,7 @@ public class S_InputManager : MonoBehaviour
         player.Dash.performed -= OnDashInput;
         player.Look.performed -= OnLookInput;
         player.Look.canceled -= OnLookInput;
+        player.Pause.performed -= OnPauseInput;
     }
     private void OnMoveInput(InputAction.CallbackContext ctx)
     {
@@ -58,5 +62,8 @@ public class S_InputManager : MonoBehaviour
     {
         rse_OnPlayerLook.Call(ctx.ReadValue<Vector2>());
     }
-
+    private void OnPauseInput(InputAction.CallbackContext ctx)
+    {
+        if(ctx.performed) rse_OnPlayerPause.Call();
+    }
 }

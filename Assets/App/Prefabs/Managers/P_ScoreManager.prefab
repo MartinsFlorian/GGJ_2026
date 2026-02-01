@@ -47,4 +47,4 @@ MonoBehaviour:
   scoreIncreaseRate: 10
   multiplierAmount: 0.5
   multiplierIncreaseInterval: 30
-  GlobalScore: {fileID: 11400000, guid: f6a4f78e9d3a64248b589dcf43038170, type: 2}
+  playerScore: {fileID: 11400000, guid: f6a4f78e9d3a64248b589dcf43038170, type: 2}

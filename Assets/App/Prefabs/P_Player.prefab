@@ -226,6 +226,7 @@ MonoBehaviour:
   rse_OnPlayerJump: {fileID: 11400000, guid: 10f036339120d694cbe2ad76c293f9f5, type: 2}
   rse_OnPlayerDash: {fileID: 11400000, guid: de08665faf0fc8440a170ad7cd811886, type: 2}
   rse_OnPlayerLook: {fileID: 11400000, guid: b0ff28aaa1193d14e9ce66fe9f3c0131, type: 2}
+  rso_GamePaused: {fileID: 11400000, guid: 6a2eca14413796b49839d8080d89fe2d, type: 2}
 --- !u!114 &3899567812176343869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}
   onShowLosePanel: {fileID: 11400000, guid: c41cba075f459344fbf61b6b711bf05e, type: 2}
-  rse_OnShowCursor: {fileID: 0}
+  rse_OnShowCursor: {fileID: 11400000, guid: 67e5ce4e058200f41b9cf543f3ead0c2, type: 2}
 --- !u!1 &6001290032004971252
 GameObject:
   m_ObjectHideFlags: 0

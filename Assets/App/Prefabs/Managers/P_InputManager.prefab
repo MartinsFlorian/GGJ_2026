@@ -50,6 +50,7 @@ MonoBehaviour:
   rse_OnPlayerJump: {fileID: 11400000, guid: 10f036339120d694cbe2ad76c293f9f5, type: 2}
   rse_OnPlayerLook: {fileID: 11400000, guid: b0ff28aaa1193d14e9ce66fe9f3c0131, type: 2}
   rse_OnPlayerMove: {fileID: 11400000, guid: 9eeda405513230c4eb698359eedb369f, type: 2}
+  rse_OnPlayerPause: {fileID: 11400000, guid: b288bd0f8c3ad224cbc1da1bb69e5bb1, type: 2}
 --- !u!114 &7334753048625142053
 MonoBehaviour:
   m_ObjectHideFlags: 0

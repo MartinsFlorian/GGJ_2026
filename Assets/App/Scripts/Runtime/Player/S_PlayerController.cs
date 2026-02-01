@@ -17,6 +17,7 @@ public class S_PlayerController : MonoBehaviour
     [SerializeField] private RSE_OnPlayerJump rse_OnPlayerJump;
     [SerializeField] private RSE_OnPlayerDash rse_OnPlayerDash;
     [SerializeField] private RSE_OnPlayerLook rse_OnPlayerLook;
+    [SerializeField] private RSO_GamePaused rso_GamePaused;
 
     //[Header("Outputs")]
 
@@ -58,12 +59,14 @@ public class S_PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(rso_GamePaused.Value) return;
         RotateCamera();
         HandleHeadbob();
         HandleFOV();
     }
     private void FixedUpdate()
     {
+        if(rso_GamePaused.Value) return;
         CheckGround();
         Move();
         RotatePlayer();
