@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2187835917709637638}
   - component: {fileID: 5481082864581338663}
   - component: {fileID: 4572308457718704625}
+  - component: {fileID: 4897583644633479983}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -110,6 +111,22 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &4897583644633479983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734663633539905816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2e765ca48ebf6418c5fd2a7b4f3423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  environmentTag: Border
+  projectileSpeed: {fileID: 11400000, guid: 084a15f4b7c4a2742b0ca59c8548b084, type: 2}
+  onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}
 --- !u!1001 &4947592125074001028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168,6 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9195910479633351811, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+    - {fileID: 3921057173359405081, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5802355257789919864, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
     m_AddedGameObjects:

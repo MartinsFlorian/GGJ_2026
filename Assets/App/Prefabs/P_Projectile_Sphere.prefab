@@ -52,8 +52,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Projectile_Sphere
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3921057173359405081, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5802355257789919864, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8767683702671695304}
   m_SourcePrefab: {fileID: 100100000, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+--- !u!1 &6975494775809611566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5802355257789919864, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+  m_PrefabInstance: {fileID: 3480144341690328406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8767683702671695304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6975494775809611566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2e765ca48ebf6418c5fd2a7b4f3423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  environmentTag: Border
+  projectileSpeed: {fileID: 11400000, guid: 084a15f4b7c4a2742b0ca59c8548b084, type: 2}
+  onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}

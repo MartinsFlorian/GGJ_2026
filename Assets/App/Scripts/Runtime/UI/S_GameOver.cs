@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class S_GameOver : MonoBehaviour
 {
@@ -30,7 +31,8 @@ public class S_GameOver : MonoBehaviour
         gameOverUI.SetActive(show);
         if (show)
         {
-            finalScoreText.text = "Final Score: " + finalScore.Value;
+            float score = Mathf.FloorToInt(finalScore.Value);
+            finalScoreText.text = "Final Score: " + score;
             GetRandomText();
         }
     }

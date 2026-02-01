@@ -1863,6 +1863,7 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 1533609460481373950}
   rse_OnUnpausedGame: {fileID: 11400000, guid: 10c6cb5fefc23a14285eb5e8c57e67ab, type: 2}
   rse_OnPlayerPause: {fileID: 11400000, guid: b288bd0f8c3ad224cbc1da1bb69e5bb1, type: 2}
+  rse_OnPauseGame: {fileID: 11400000, guid: afc748f5a350ae643b120dfa1245b850, type: 2}
   rse_OnShowCursor: {fileID: 11400000, guid: 67e5ce4e058200f41b9cf543f3ead0c2, type: 2}
   rso_GamePaused: {fileID: 11400000, guid: 6a2eca14413796b49839d8080d89fe2d, type: 2}
 --- !u!114 &8927698141757725863

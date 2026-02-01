@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3525074139447083991}
   - component: {fileID: 3311112354749654015}
   - component: {fileID: 2911408535428906499}
+  - component: {fileID: 3435070123916139289}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -108,6 +109,22 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3435070123916139289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5802355257789919864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2e765ca48ebf6418c5fd2a7b4f3423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  environmentTag: Border
+  projectileSpeed: {fileID: 11400000, guid: 084a15f4b7c4a2742b0ca59c8548b084, type: 2}
+  onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}
 --- !u!1 &8373134037399970586
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +134,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1349864470012083885}
-  - component: {fileID: 3921057173359405081}
   m_Layer: 0
   m_Name: P_Projectile
   m_TagString: Untagged
@@ -141,19 +157,3 @@ Transform:
   - {fileID: 8115944983277023732}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3921057173359405081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8373134037399970586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb2e765ca48ebf6418c5fd2a7b4f3423, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  environmentTag: Border
-  projectileSpeed: {fileID: 11400000, guid: 084a15f4b7c4a2742b0ca59c8548b084, type: 2}
-  onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}

@@ -379,6 +379,7 @@ MonoBehaviour:
   onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}
   onShowLosePanel: {fileID: 11400000, guid: c41cba075f459344fbf61b6b711bf05e, type: 2}
   rse_OnShowCursor: {fileID: 11400000, guid: 67e5ce4e058200f41b9cf543f3ead0c2, type: 2}
+  rse_OnPauseGame: {fileID: 11400000, guid: afc748f5a350ae643b120dfa1245b850, type: 2}
 --- !u!1 &6001290032004971252
 GameObject:
   m_ObjectHideFlags: 0
