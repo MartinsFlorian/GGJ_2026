@@ -124,3 +124,4 @@ MonoBehaviour:
   playerTag: Player
   environmentTag: Environment
   projectileSpeed: {fileID: 11400000, guid: 084a15f4b7c4a2742b0ca59c8548b084, type: 2}
+  onPlayerTakeDamage: {fileID: 11400000, guid: 422e49c0efc2af342b10edd7c81f7ce0, type: 2}

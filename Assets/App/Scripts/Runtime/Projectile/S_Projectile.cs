@@ -12,6 +12,7 @@ public class S_Projectile : MonoBehaviour
 
     [Header("Outputs")]
     [SerializeField] private RSO_ProjectileSpeed projectileSpeed;
+    [SerializeField] private RSE_OnPlayerTakeDamage onPlayerTakeDamage;
     private float speed;
 
     private void OnEnable()
@@ -31,7 +32,7 @@ public class S_Projectile : MonoBehaviour
     {
         if(other.CompareTag(playerTag))
         {
-            // Handle collision with player (e.g., apply damage)
+            onPlayerTakeDamage.Call();
             Destroy(gameObject);
         }
         else if(other.CompareTag(environmentTag))

@@ -30,7 +30,7 @@ public class S_GameOver : MonoBehaviour
         gameOverUI.SetActive(show);
         if (show)
         {
-            finalScoreText.text = "Final Score: " + finalScore;
+            finalScoreText.text = "Final Score: " + finalScore.Value;
             GetRandomText();
         }
     }
