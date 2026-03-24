@@ -13,6 +13,7 @@ public class S_PauseMenu : MonoBehaviour
     [SerializeField] private RSE_OnUnpausedGame rse_OnUnpausedGame;
     [SerializeField] private RSE_OnPlayerPause rse_OnPlayerPause;
     [SerializeField] private RSE_OnPauseGame rse_OnPauseGame;
+    [SerializeField] private RSE_OnPlayerTakeDamage onPlayerTakeDamage;
 
     [Header("Outputs")]
     [SerializeField] private RSE_OnShowCursor rse_OnShowCursor;
@@ -24,12 +25,14 @@ public class S_PauseMenu : MonoBehaviour
         rse_OnPlayerPause.action += TogglePause;
         rse_OnUnpausedGame.action += Resume;
         rse_OnPauseGame.action += Pause;
+        onPlayerTakeDamage.action += HandlePlayerTakeDamage;
     }
     private void OnDisable()
     {
         rse_OnPlayerPause.action -= TogglePause;
         rse_OnUnpausedGame.action -= Resume;
         rse_OnPauseGame.action -= Pause;
+        onPlayerTakeDamage.action -= HandlePlayerTakeDamage;
     }
     private void TogglePause()
     {
@@ -58,6 +61,14 @@ public class S_PauseMenu : MonoBehaviour
         rso_GamePaused.Value = isPaused;
 
         pauseMenuUI.SetActive(true);
+
+        Time.timeScale = 0f;
+        rse_OnShowCursor.Call(false);
+    }
+    private void HandlePlayerTakeDamage()
+    {
+        isPaused = true;
+        rso_GamePaused.Value = isPaused;
 
         Time.timeScale = 0f;
         rse_OnShowCursor.Call(false);
