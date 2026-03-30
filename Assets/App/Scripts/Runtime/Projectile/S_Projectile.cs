@@ -4,8 +4,7 @@ public class S_Projectile : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private string playerTag = "Player";
-    [SerializeField] private string environmentTag = "Environment";
-
+    [SerializeField] private float lifeTime = 5f;
     //[Header("References")]
 
     //[Header("Inputs")]
@@ -18,6 +17,8 @@ public class S_Projectile : MonoBehaviour
     private void OnEnable()
     {
         speed = projectileSpeed.Value;
+        if (lifeTime > 0f)
+            Destroy(gameObject, lifeTime);
     }
     private void OnDisable()
     {
@@ -33,11 +34,6 @@ public class S_Projectile : MonoBehaviour
         if(other.CompareTag(playerTag))
         {
             onPlayerTakeDamage.Call();
-            Destroy(gameObject);
-        }
-        else if(other.CompareTag(environmentTag))
-        {
-            // Handle collision with environment (e.g., destroy projectile)
             Destroy(gameObject);
         }
     }

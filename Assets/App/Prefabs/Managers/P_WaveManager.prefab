@@ -48,69 +48,129 @@ MonoBehaviour:
   listPattern:
   - listSpawners:
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 1
       spawnInterval: 0
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 1
-      spawnInterval: 0
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 0.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 1
-      spawnInterval: 0
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 3
+      spawnInterval: 1
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 1
       spawnInterval: 0
     waitTime: 2
   - listSpawners:
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 0
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 0.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 0.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 0.5
     waitTime: 3.5
   - listSpawners:
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3502175261577408414, guid: 66505afbc8135c645aec9b4b301cfa5d, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 3
       spawnInterval: 1
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 1
       spawnInterval: 0
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 1.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 1.5
     waitTime: 5
   - listSpawners:
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3502175261577408414, guid: 66505afbc8135c645aec9b4b301cfa5d, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 3
       spawnInterval: 1
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 4933884553371354700, guid: 060eeee800e76c44080c6523ce12c4bf, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 1
       spawnInterval: 0
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
+      numProjectiles: 2
+      spawnInterval: 1.5
+    - spawner: {fileID: 0}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 2
       spawnInterval: 1.5
     - spawner: {fileID: 0}
@@ -118,83 +178,23 @@ MonoBehaviour:
       numProjectiles: 2
       spawnInterval: 1.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
-      numProjectiles: 2
-      spawnInterval: 1.5
-    - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 3
       spawnInterval: 1
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 4
       spawnInterval: 1.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 4
       spawnInterval: 1.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 4
       spawnInterval: 1.5
     - spawner: {fileID: 0}
-      projectilePrefab: {fileID: 3660587341418874717, guid: 4494efda68032654dabdaa6ff2c39ad9, type: 3}
+      projectilePrefab: {fileID: 8373134037399970586, guid: 749fcabcf2a30984da2110dae9444b77, type: 3}
       numProjectiles: 4
       spawnInterval: 1.5
     waitTime: 5
